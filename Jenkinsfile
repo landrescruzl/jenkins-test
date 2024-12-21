@@ -10,6 +10,7 @@ pipeline {
         stage('Compiling') {
             steps {
                 echo 'Hello World2'
+                exit 1
             }
         }
         stage('Test') {
