@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Environment settings') {
             steps {
-                echo 'Hello World1'
+                echo 'Hello World1 from the repo'
             }
         }
         stage('Compiling') {
